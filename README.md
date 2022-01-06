@@ -4,6 +4,7 @@ Tensorflow micro speech with MFCC (draft)
 tf_micro_speech_mfcc contains tf micro speech application that uses MFCC. The main part is in [tf_micro_speech_mfcc/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_features_generator.cc](https://github.com/jonarani/Tensorflow-MFCC/blob/master/tf_micro_speech_mfcc/tensorflow/lite/micro/examples/micro_speech/micro_features/micro_features_generator.cc). In this file important functions are spectrogram.Initalize(), mfcc.Initalize(), spectrogram.ComputeSquaredMagnitudeSpectrogram() and mfcc.Compute().
 
 [spectrogram.cc](https://github.com/jonarani/Tensorflow-MFCC/blob/master/tf_micro_speech_mfcc/tensorflow/lite/kernels/internal/spectrogram.cc)
+
 [mfcc stuff](https://github.com/jonarani/Tensorflow-MFCC/tree/master/tf_micro_speech_mfcc/tensorflow/core/kernels)
 
 
