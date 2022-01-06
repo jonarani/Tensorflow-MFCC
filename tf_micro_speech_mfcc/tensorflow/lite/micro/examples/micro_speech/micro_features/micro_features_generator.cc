@@ -112,8 +112,8 @@ TfLiteStatus GenerateMicroFeatures(tflite::ErrorReporter* error_reporter,
 
   if (g_is_first_time) {
     //printf ("Generatemicro first \n");
-    spectrogram.Initialize(window_size, stride);        // TODO: + 256 to stide so that it would match what is outputed in Python?
-                                                        // Window stride as big as window size in Python??
+    spectrogram.Initialize(window_size, stride);        
+                                                        
     frontend_input = input;
     g_is_first_time = false;
 
